@@ -7,10 +7,15 @@ and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
 ## [Unreleased]
+### Added
 
+- Designed a proof-of-concept for the ScreenNavigationStack component.
+- Implemented initial MVP Java file demonstrating push, pop, top, size,
+  isEmpty, clear, and contains behaviors with a client demonstration.
 - Disabled an aspect of the coderunner extension
 - Fixed broken links
 - Disabled AI features globally
+
 
 ## [2024.12.30]
 
