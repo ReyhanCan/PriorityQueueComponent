@@ -34,4 +34,3 @@ public interface ScreenNavigatorKernel extends Standard<ScreenNavigator> {
      */
     boolean isEmpty();
 }
-
