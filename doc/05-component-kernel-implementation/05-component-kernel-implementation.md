@@ -1,9 +1,8 @@
 # Portfolio Part 5: Kernel Implementation
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
-
+- **Name**: Reyhan Can
+- **Dot Number**: Can.22
+- **Due Date**: 04/15/2026
 ## Assignment Overview
 
 At this point in the portfolio project, the only thing left as far as
@@ -38,28 +37,7 @@ Finally, you **must** specify the convention and correspondence at the top
 of the file. Feel free to reference any of your kernel implementations for
 examples of these.
 
-## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
-
-To be sure you have completed everything on this assignment, we have littered
-this document with TODO comments. You can browse all of them in VSCode by
-opening the TODOs window from the sidebar. The icon looks like a tree and will
-likely have a large number next to it indicating the number of TODOS. You'll
-chip away at that number over the course of the semester. However, if you'd
-like to remove this number, you can disable it by removing the following
-line from the `settings.json` file:
-
-```json
-"todo-tree.general.showActivityBarBadge": true,
-```
-
-Which is not to be confused with the following setting that adds the counts
-to the tree diagram (you may remove this one as well):
-
-```json
-"todo-tree.tree.showCountsInTree": true,
-```
 
 ## Assignment Learning Objectives
 
@@ -120,7 +98,7 @@ Below is further rationale/explanation for the rubric items above:
 > discuss how that representation will be restricted (i.e., by convention)
 > and interpreted (i.e., by correspondence).
 
-<!-- TODO: select a representation and explain why -->
+I selected a Stack as the representation for my component because the ScreenNavigator follows a last-in, first-out (LIFO) structure. When navigating between screens, the most recent screen should be removed first when going back, which aligns naturally with a stack. This makes the kernel methods simple and efficient to implement.
 
 > To start making your kernel implementation, make a branch off of main in your
 > new repo called something like `kernel-implementation`. There are many ways to
@@ -142,7 +120,7 @@ Below is further rationale/explanation for the rubric items above:
 > rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 > and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
+
 
 ## Assignment Tasks
 
@@ -163,7 +141,7 @@ completed the assignment.
 
 ### Changelog
 
-<!-- TODO: update CHANGELOG then delete this comment -->
+
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -178,15 +156,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## YYYY.MM.DD
+## 2026.04.15
 
 ### Added
-
-- Designed kernel implementation for <!-- insert name of component here --> component
+- Implemented ScreenNavigator kernel using Stack representation
+- Added convention and correspondence
 
 ### Updated
-
-- Changed design to include ...
+- Completed kernel and standard methods for ScreenNavigator
 
 ```
 
@@ -196,22 +173,7 @@ You may notice that things are nicely linked in the root CHANGELOG. If you'd
 like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
-### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
-
-Assuming that your project is in a GitHub repo somewhere and your changes are on
-a proof-of-concept branch, then what we'll want you to do is create a pull
-request of all your changes. Pull requests are pretty easy to make if you're
-using GitHub Desktop. Just click the `Branch` tab and select
-`Create pull request`. This should pull up your browser with the pull request
-form ready to complete. Give your pull request a good title like "Completed Part
-5 of the Portfolio Project" and briefly describe what you've done. Then, click
-"Create pull request".
-
-If all goes well, you should have a pull request that you can submit to Carmen
-via its URL. The URL should be in the form:
-`https://github.com/username/repo-name/pull/#`
 
 **Note**: you are the owner of the repo, so you are not required to wait for
 feedback before merging. After all, the main purpose of the pull request is to
@@ -250,6 +212,6 @@ If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
 
-<!-- TODO: follow the link to share your feedback then delete this comment -->
+
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
